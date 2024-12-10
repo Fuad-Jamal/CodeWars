@@ -12,4 +12,4 @@ for ( let i=0; i<input.length; i++){
 }
 return input.length !==0? [positiveNumbers,negativeNumbers]:[]
   }
-console.log(countPositivesSumNegatives([]))
+console.log(countPositivesSumNegatives([7,-9,8,-9]))
