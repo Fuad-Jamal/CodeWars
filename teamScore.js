@@ -1,4 +1,4 @@
-function uefaEuro2016(teams, scores){
+function uefaEuro2016(teams, scores){                                                                                                                   
     let [t1,t2] = teams
   let [s1,s2] = scores
   if (s1>s2){
