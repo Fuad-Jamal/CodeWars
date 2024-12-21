@@ -1,3 +1,4 @@
+"use strict"
 function sum (numbers) {
     let sumi = 0
     for (let i = 0; i<numbers.length; i++ ){
