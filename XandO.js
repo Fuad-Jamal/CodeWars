@@ -9,8 +9,6 @@ function XO(str) {
         if (char === 'o')
           o++
     }
-
-
     return x === o? true : false
 }
 console.log(XO('sldksfxooxeoxioieowrs'))
