@@ -5,4 +5,4 @@ var summation = (num) => {
     }
     return add
 }
-console.log(summation(3,2,3,2,2,3,3,2))
+console.log(summation(3,2,3,2,2,3,3,2))\
