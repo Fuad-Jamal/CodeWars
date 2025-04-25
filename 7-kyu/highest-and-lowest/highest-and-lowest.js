@@ -1,5 +1,5 @@
 function highAndLow(numbers){
-  let y =''
+  let y =numbers.split('')
   for(const x of numbers){
     if(x>x){
       return y+= Math.min(x) Math.max(x)
