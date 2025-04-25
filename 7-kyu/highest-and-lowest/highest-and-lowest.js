@@ -1,3 +1,6 @@
 function highAndLow(numbers){
-      return `${Math.min(...numbers)} ${Math.max(...numbers)}`
+  let x = numbers.split('').map(Number)
+  let y = Math.min(...x)
+  let z = Math.max(...x)
+  return `y z`
 }
