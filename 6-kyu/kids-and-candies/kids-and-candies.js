@@ -1,5 +1,4 @@
- 
 function candiesToBuy( kids ){
-  return kids/12
+  return kids/Math.floor(12)
 }
 ​
