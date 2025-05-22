@@ -1,5 +1,5 @@
 function filter_list(l) {
-  let y = l.filter((x) =>{
+  let y = l.map((x) =>{
     if(x !== Number(x))
       return l.pop(x)
   })
