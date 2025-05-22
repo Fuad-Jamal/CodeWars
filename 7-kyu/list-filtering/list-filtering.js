@@ -1,3 +1,3 @@
 function filter_list(l) {
- return l.map(x => typeof x === 'number')
+ return l.map(x => typeof x === 'number'?)
 }
