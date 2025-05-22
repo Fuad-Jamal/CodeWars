@@ -1,6 +1,6 @@
  
 function filter_list(l) {
  return l.filter((x)=>{
-     if(Number(x)) return x
+     if(typeof x === 'number') return x
  })
 }
