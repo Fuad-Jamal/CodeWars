@@ -1,9 +1,3 @@
 function filter_list(l) {
- return l.filter((x)=>{
-     if(typeof x === 'number'){
-       return x
-     } else{
-       return
-     }
- })
+ return l.filter(x => typeof x == 'number')
 }
