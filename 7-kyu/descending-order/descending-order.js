@@ -1,3 +1,3 @@
 function descendingOrder(n){
-  return n.sort((a,b) => b-a)
+  return n.sort((a,b) => a-b)
 }
