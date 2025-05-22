@@ -4,8 +4,8 @@ function getMiddle(s) {
     let mid2 = s.charAt(mid) 
     let yy = s.charAt(mid2+1)
     if(s.length%2 === 0){
-   return yy
+   return mid2
     }else{
-       return mid2
+       return yy
     }
 }
