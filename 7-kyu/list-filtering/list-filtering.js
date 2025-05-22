@@ -3,7 +3,7 @@ function filter_list(l) {
      if(typeof x === 'number'){
        return x
      } else{
-       return
+       return ISBLANK
      }
  })
 }
