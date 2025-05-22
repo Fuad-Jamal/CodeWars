@@ -1,5 +1,5 @@
 function filter_list(l) {
  return l.filter((x)=>{
-     if(typeof x === 'number') return x
+     if(typeof x === 'number' && x === 0) return x
  })
 }
