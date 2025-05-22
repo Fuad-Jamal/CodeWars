@@ -1,3 +1,3 @@
 var isSquare = function(n){
-  return n%4? true : false
+  return n/4? true : false
 }
