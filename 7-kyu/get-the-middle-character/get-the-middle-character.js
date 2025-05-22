@@ -1,3 +1,4 @@
+ 
 function getMiddle(s) {
     let mid = Math.floor(s.length/2)
     let mid2 = s.charAt(mid)+ s.charAt(mid)
