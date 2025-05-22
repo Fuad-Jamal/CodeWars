@@ -1,4 +1,3 @@
- 
 function getMiddle(s) {
     const mid = Math.floor(s.length/2)
     
