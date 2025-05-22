@@ -1,3 +1,3 @@
 var isSquare = function(n){
-  Number.isInteger(Math.sqrt(n));
+  return Number.isInteger(Math.sqrt(n));
 }
