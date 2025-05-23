@@ -1,3 +1,4 @@
+ 
 function solution(str, ending){
-  return ending.endsWith(str)? true: false
+  return ending.endsWith(str)? false: true
 }
