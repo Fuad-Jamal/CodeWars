@@ -6,7 +6,9 @@
      return exp**x
   })
  let sum = y.reduce((a,c)=> a+c,0)
- return sum%x===value? true: false
+ return sum === value? true: false
+ 
+​
  
 }
 ​
