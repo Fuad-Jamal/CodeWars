@@ -1,4 +1,3 @@
- 
 function solution(str, ending){
-  return ending.endsWith(star)
+  return ending.endsWith(str)
 }
