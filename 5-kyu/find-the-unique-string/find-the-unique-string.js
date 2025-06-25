@@ -1,4 +1,3 @@
- 
 function findUniq(string){
 let x = string.map(x=>[...new Set(x.toLowerCase().split(''))].sort())
 ​
