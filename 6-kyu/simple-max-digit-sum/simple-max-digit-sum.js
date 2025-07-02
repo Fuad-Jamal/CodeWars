@@ -1,10 +1,17 @@
  
-function solve(n){
-    if(n===0) return 0
-  let x = solve(n-1)
-  let nss = n.toString().split('').reduce((a,b)=> a+ +b)
-  let z = x.toString().split('').reduce((a,b)=>a+ +b,0)
-  if(nss>z) return n
-  if(nss<z) return x
-  return n>x? n:x
+function solve(n) {
+  let best = 0;
+  let bestSum = 0;
+​
+  for (let i = 1; i <= n; i++) {
+    let sum = i.toString().split('').reduce((a, b) => a + +b, 0);
+​
+    if (sum > bestSum || (sum === bestSum && i > best)) {
+      best = i;
+      bestSum = sum;
+    }
+  }
+​
+  return best;
 }
+​
