@@ -1,1 +1,2 @@
-calculate=(a,b)=>parseInt(a,2)+parseInt(b,2)
+ 
+calculate=(a,b)=>eval("0b"+a)+eval("0b"+b)
