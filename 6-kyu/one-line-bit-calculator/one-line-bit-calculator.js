@@ -1,2 +1,2 @@
  
-calculate=(a,b)=>eval("0b"+a)+eval("0b"+b)
+calculate=(a,b)=>+`0b${a}`+ +`0b${b}`
