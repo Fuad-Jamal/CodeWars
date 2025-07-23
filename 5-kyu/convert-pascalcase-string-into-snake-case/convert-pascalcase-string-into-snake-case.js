@@ -3,10 +3,10 @@ function toUnderscore(string) {
     if(typeof string === 'number') return `${string}`
     for(let x =0; x<string.length; x++){
       
-      if(x!==0 && /[A-Z]/.test(string[i])){
+      if(x!==0 && /[A-Z]/.test(string[x])){
       result += '_'
     }else{
-      result += string[i]
+      result += string[x]
     }
     }
     return result.toLowerCase()
