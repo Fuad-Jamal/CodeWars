@@ -3,7 +3,7 @@ function dup(s) {
     let result = ''
 let x = s.map(y=>{
 ​
-  for(let i=0; i<=y.length; i++){
+  for(let i=0; i<y.length; i++){
     if(y[i]!==y[i-1]){
       result += y[i]
     }
