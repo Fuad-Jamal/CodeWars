@@ -1,6 +1,5 @@
 function longest(s1, s2) {
   let x = s1+s2
-  let y = x.split('')
-  return [...new Set(y)].join``
+  return [...new Set(x)].sort((a,b)=>a.localeCompare(b))
 }
 ​
