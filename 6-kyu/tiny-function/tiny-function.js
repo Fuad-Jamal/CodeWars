@@ -1,0 +1,1 @@
+f=_=>String.fromCharCode(116,105,110,121)
