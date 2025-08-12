@@ -1,1 +1,2 @@
-f=_=>String.fromCharCode(116,105,110,121)
+ 
+f=_=>eval('"\\x74\\x69\\x6e\\x79"')
