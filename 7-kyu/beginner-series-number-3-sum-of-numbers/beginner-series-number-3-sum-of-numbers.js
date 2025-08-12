@@ -1,5 +1,4 @@
- 
 function getSum(a, b)
 {
-return a===b? return b: a+b
+return a===b? b: Math.abs(a)+Math.abs(b)
 }
