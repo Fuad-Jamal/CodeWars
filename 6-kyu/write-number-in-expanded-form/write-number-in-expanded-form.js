@@ -8,5 +8,5 @@ function expandedForm(num) {
       soln.push(exp)
     }
   }
-  return soln.join(' + ')
+   return soln.join(' + ')
 }
