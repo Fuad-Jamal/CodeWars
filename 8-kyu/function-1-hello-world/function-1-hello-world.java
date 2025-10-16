@@ -1,5 +1,5 @@
 public class HelloWorld {
-  public static greet(){
+  public static String greet(){
     return "Hello World!";
   }
 }
