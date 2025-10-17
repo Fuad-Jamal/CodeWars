@@ -3,7 +3,7 @@ public class Counter {
         int counter = 0;
       for(Boolean sheep: arrayOfSheeps){
         if(sheep == true){
-          counter--;
+          counter++;
         }
       }
       return counter;
