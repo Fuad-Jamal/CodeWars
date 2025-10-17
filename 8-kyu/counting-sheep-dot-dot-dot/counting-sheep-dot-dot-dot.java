@@ -14,6 +14,6 @@ public class Counter {
 //           continue;
 //         }
 //       }
-//       return counter;
+   return counter;
     }
 }
