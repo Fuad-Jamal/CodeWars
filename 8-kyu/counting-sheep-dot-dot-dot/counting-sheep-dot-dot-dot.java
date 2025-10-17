@@ -1,3 +1,4 @@
+ 
 public class Counter {
     public static int countSheeps(Boolean[] arrayOfSheeps) {
         int counter = 0;
