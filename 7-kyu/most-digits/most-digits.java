@@ -7,7 +7,7 @@ public class MostDigits {
         result = numbers[i];
       }
     }
-      return (int)result;
+      return result;
   }
 ​
 }
