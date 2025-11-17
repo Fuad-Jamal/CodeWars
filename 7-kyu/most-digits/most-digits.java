@@ -1,4 +1,3 @@
- 
 public class MostDigits {
   public static int findLongest(int[] numbers) {
     int result =0;
