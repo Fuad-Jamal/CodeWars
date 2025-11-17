@@ -8,7 +8,6 @@ public class MostDigits {
       if(now>results){
         result = numbers[i];
       }
-      
     }
       return result;
   }
