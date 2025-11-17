@@ -4,6 +4,8 @@ public class MostDigits {
     for(int i=0; i<numbers.length; i++){
       if(result<numbers[i]){
         result = numbers[i];
+      }else if(result.length == numbers[i].length){
+        return result;
       }
     }
       return result;
