@@ -2,11 +2,13 @@ public class MostDigits {
   public static int findLongest(int[] numbers) {
     int result =0;
     for(int i=0; i<numbers.length; i++){
-      if(result<numbers[i]){
+        int now = String.valueOf(numbers[i]).length();
+        int results =String.valueOf(result).length() ;
         result = numbers[i];
-      }else if(String.valueOf(result).length() == String.valueOf(numbers[i]).length()){
-        
+      if(now>results){
+        result = numbers[i];
       }
+      
     }
       return result;
   }
