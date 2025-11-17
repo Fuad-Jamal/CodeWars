@@ -5,11 +5,11 @@ public class MostDigits {
     for(int i=0; i<numbers.length; i++){
       for(int j=0; j<numbers.length; j++){
         if(numbers[i]==numbers[j]) {
-          result = numbers[i];
+          return = numbers[i];
           }
       }
     }
-      return result;
+//       return result;
   }
 ​
 }
